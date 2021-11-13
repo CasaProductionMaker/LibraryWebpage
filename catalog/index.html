@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home library</title>
+		<meta charset="UTF-8">
+		<style type="text/css">
+			body {
+				background-image: url(https://image.freepik.com/free-vector/blue-technology-circuit-lines-digital-background-design_1017-27265.jpg);
+				background-size: 100%;
+			}
+			h2 {
+				color: rgb(0, 200, 255);
+			}
+			h4 {
+				color: rgb(0, 200, 255);
+			}
+			h1 {
+				text-align: center;
+				color: rgb(0, 200, 255);
+				text-decoration: underline;
+			}
+			#button {
+				background-color: rgb(0, 0, 255);
+				background-position: left;
+				background-size: 20px 20px;
+
+			}
+			#button:hover {
+				background-color: rgb(0, 0, 200);
+				
+			}
+		</style>
+	</head>
+	<body>
+		<script>
+			//77 books!
+			function search() {
+				var searched = document.getElementById("tosearch").value;
+				var books = ["Amazing origami", "Aprendo los transportes", "Awsome paper planes", "A whale of a tale", "Catch the bus", "Cider season", "Chirp", "Cuentos de piratas para grumetes", "Discover science", "Disney pricesses", "Disney pricesses the essenstial guide", "Dis 10 dinosaurs", "Do you want a hug", "El conejito knuffle", "Eyewitness human body", "Frozen fever", "Frozen story collection", "Goodnight canada", "Goodnight stories for rebel girls", "Gotta catch'em all", "Grovyle trouble", "Guia de los pokémon de alola", "Haggis and tank unleashed", "Happy birthday madame chapeau", "Hippos go berserk", "Howard B. Wigglebottom", "How things are made", "Inside out", "Inside your outside", "Invetions", "I spy a scary monster", "I spy a skeleton", "Kindergarden skills", "Kyurem and the sword of justice", "La excursion", "La historia de peppa pig", "Listening with my heart", "Little look and find", "Minecraft", "My,oh my-a butterfly", "Octopus under the sea", "Origami city", "Origami creativo", "Origami of living things", "Origami zoo", "Our baby", "Peru", "Phonics Readers", "Pokémon heartgold & soulsilver", "Pokémon X&Y", "Return of the squirtle squad", "Santa is coming to colarado", "Search and find", "Sleeping farm", "Space", "Story book", "Talent showdown", "Tamagotchi Comics Season 1", "Tamagotchi Comics Season 2", "Tamagotchi Comics Season 3 Book 1", "Ten christmas wishes", "The amazing bubblegum caper", "The big bad wolf", "The curse of the cheese pyramid", "The klutz book of paper airplanes", "The magic school bus", "The pigeon needs a bath", "The planets", "Thomas's big book of beginners", "We are in a book", "What cat is that", "Whoosh", "You hold me up", "1000 first words in french", "365 cuentos para dormir", "5-minute frozen stories", "5-minute peppa stories"];
+				var b;
+				var i = 0;
+				for (var e = 0; e < books.length; e++) {
+					b = books[e];
+					if (b.includes(searched)) {
+						if (i === 0) {
+							hf0.innerHTML = b;
+						} else if (i === 1) {
+							hf1.innerHTML = b;
+						} else if (i === 2) {
+							hf2.innerHTML = b;
+						} else if (i === 3) {
+							hf3.innerHTML = b;
+						} else if (i === 4) {
+							hf4.innerHTML = b;
+						} else if (i === 5) {
+							hf5.innerHTML = b;
+						} else if (i === 6) {
+							hf6.innerHTML = b;
+						} else if (i === 7) {
+							hf7.innerHTML = b;
+						} else if (i === 8) {
+							hf8.innerHTML = b;
+						} else if (i === 9) {
+							hf9.innerHTML = b;
+						} else if (i === 10) {
+							hf10.innerHTML = b;
+						} else if (i === 11) {
+							hf11.innerHTML = b;
+						} else if (i === 12) {
+							hf12.innerHTML = b;
+						} else if (i === 13) {
+							hf13.innerHTML = b;
+						} else if (i === 14) {
+							hf14.innerHTML = b;
+						} else if (i === 15) {
+							hf15.innerHTML = b;
+						} else if (i === 16) {
+							hf16.innerHTML = b;
+						} else if (i === 17) {
+							hf17.innerHTML = b;
+						} else if (i === 18) {
+							hf18.innerHTML = b;
+						} else if (i === 19) {
+							hf29.innerHTML = b;
+						} else if (i === 20) {
+							hf20.innerHTML = b;
+						} else if (i === 21) {
+							hf21.innerHTML = b;
+						} else if (i === 22) {
+							hf22.innerHTML = b;
+						} else if (i === 23) {
+							hf23.innerHTML = b;
+						} else if (i === 24) {
+							hf24.innerHTML = b;
+						} else if (i === 25) {
+							hf25.innerHTML = b;
+						} else if (i === 26) {
+							hf26.innerHTML = b;
+						} else if (i === 27) {
+							hf27.innerHTML = b;
+						} else if (i === 28) {
+							hf28.innerHTML = b;
+						} else if (i === 29) {
+							hf29.innerHTML = b;
+						} else if (i === 30) {
+							hf30.innerHTML = b;
+						} else if (i === 31) {
+							hf31.innerHTML = b;
+						} else if (i === 32) {
+							hf32.innerHTML = b;
+						} else if (i === 33) {
+							hf33.innerHTML = b;
+						} else if (i === 34) {
+							hf34.innerHTML = b;
+						} else if (i === 35) {
+							hf35.innerHTML = b;
+						} else if (i === 36) {
+							hf36.innerHTML = b;
+						} else if (i === 37) {
+							hf37.innerHTML = b;
+						} else if (i === 38) {
+							hf38.innerHTML = b;
+						} else if (i === 39) {
+							hf39.innerHTML = b;
+						} else if (i === 40) {
+							hf40.innerHTML = b;
+						} else if (i === 41) {
+							hf41.innerHTML = b;
+						} else if (i === 42) {
+							hf42.innerHTML = b;
+						} else if (i === 43) {
+							hf43.innerHTML = b;
+						} else if (i === 44) {
+							hf44.innerHTML = b;
+						} else if (i === 45) {
+							hf45.innerHTML = b;
+						} else if (i === 46) {
+							hf46.innerHTML = b;
+						} else if (i === 47) {
+							hf47.innerHTML = b;
+						} else if (i === 48) {
+							hf48.innerHTML = b;
+						} else if (i === 49) {
+							hf49.innerHTML = b;
+						} else if (i === 50) {
+							hf50.innerHTML = b;
+						} else if (i === 51) {
+							hf51.innerHTML = b;
+						} else if (i === 52) {
+							hf52.innerHTML = b;
+						} else if (i === 53) {
+							hf53.innerHTML = b;
+						} else if (i === 54) {
+							hf54.innerHTML = b;
+						} else if (i === 55) {
+							hf55.innerHTML = b;
+						} else if (i === 56) {
+							hf56.innerHTML = b;
+						} else if (i === 57) {
+							hf57.innerHTML = b;
+						} else if (i === 58) {
+							hf58.innerHTML = b;
+						} else if (i === 59) {
+							hf59.innerHTML = b;
+						} else if (i === 60) {
+							hf60.innerHTML = b;
+						} else if (i === 61) {
+							hf61.innerHTML = b;
+						} else if (i === 62) {
+							hf62.innerHTML = b;
+						} else if (i === 63) {
+							hf63.innerHTML = b;
+						} else if (i === 64) {
+							hf64.innerHTML = b;
+						} else if (i === 65) {
+							hf65.innerHTML = b;
+						} else if (i === 66) {
+							hf66.innerHTML = b;
+						} else if (i === 67) {
+							hf67.innerHTML = b;
+						} else if (i === 68) {
+							hf68.innerHTML = b;
+						} else if (i === 69) {
+							hf69.innerHTML = b;
+						} else if (i === 70) {
+							hf60.innerHTML = b;
+						} else if (i === 71) {
+							hf71.innerHTML = b;
+						} else if (i === 72) {
+							hf72.innerHTML = b;
+						} else if (i === 73) {
+							hf73.innerHTML = b;
+						} else if (i === 74) {
+							hf74.innerHTML = b;
+						} else if (i === 75) {
+							hf75.innerHTML = b;
+						} else if (i === 76) {
+							hf76.innerHTML = b;
+						} else if (i === 77) {
+							hf77.innerHTML = b;
+						}
+						i++;
+					}
+				}
+			}
+		</script>
+		<h1>Libary Catalog</h1>
+		<br>
+		<h2>Recently Added:</h2>
+		<h4>Tamagotchi Comics Season 3 Book 2, Tamagotchi Comics Season 3 Book 3</h4>
+		<h2>Popular Books:</h2>
+		<h4>Peppa Pig 5-Minute Stories</h4>
+		<h2>Collections:</h2><h4>Tamagotchi Comics Season 1, Tamagotchi Comics Season 2, Phonics Readers, Inside Out</h4>
+		<input id="tosearch" placeholder="Search..." type="text">
+		<img src="https://lh3.googleusercontent.com/proxy/lReTx28DCof9vIHwwyFQoiYvhIFdUPfWHJtQ3UVEctQBFZ9fZJWv_z3edE-ArTfXZy9J2Rm0ZPkD-sh613lxgHTmS_dCpFa7zPIKHfi6TtxBfvU8XeQP"id="button"onclick="search()" width="20px">
+		<h4 id="hf0">____________</h4>
+		<h4 id="hf1">____________</h4>
+		<h4 id="hf2">____________</h4>
+		<h4 id="hf3">____________</h4>
+		<h4 id="hf4">____________</h4>
+		<h4 id="hf5">____________</h4>
+		<h4 id="hf6">____________</h4>
+		<h4 id="hf7">____________</h4>
+		<h4 id="hf8">____________</h4>
+		<h4 id="hf9">____________</h4>
+		<h4 id="hf10">____________</h4>
+		<h4 id="hf11">____________</h4>
+		<h4 id="hf12">____________</h4>
+		<h4 id="hf13">____________</h4>
+		<h4 id="hf14">____________</h4>
+		<h4 id="hf15">____________</h4>
+		<h4 id="hf16">____________</h4>
+		<h4 id="hf17">____________</h4>
+		<h4 id="hf18">____________</h4>
+		<h4 id="hf19">____________</h4>
+		<h4 id="hf20">____________</h4>
+		<h4 id="hf21">____________</h4>
+		<h4 id="hf22">____________</h4>
+		<h4 id="hf23">____________</h4>
+		<h4 id="hf24">____________</h4>
+		<h4 id="hf25">____________</h4>
+		<h4 id="hf26">____________</h4>
+		<h4 id="hf27">____________</h4>
+		<h4 id="hf28">____________</h4>
+		<h4 id="hf29">____________</h4>
+		<h4 id="hf30">____________</h4>
+		<h4 id="hf31">____________</h4>
+		<h4 id="hf32">____________</h4>
+		<h4 id="hf33">____________</h4>
+		<h4 id="hf34">____________</h4>
+		<h4 id="hf35">____________</h4>
+		<h4 id="hf36">____________</h4>
+		<h4 id="hf37">____________</h4>
+		<h4 id="hf38">____________</h4>
+		<h4 id="hf39">____________</h4>
+		<h4 id="hf40">____________</h4>
+		<h4 id="hf41">____________</h4>
+		<h4 id="hf42">____________</h4>
+		<h4 id="hf43">____________</h4>
+		<h4 id="hf44">____________</h4>
+		<h4 id="hf45">____________</h4>
+		<h4 id="hf46">____________</h4>
+		<h4 id="hf47">____________</h4>
+		<h4 id="hf48">____________</h4>
+		<h4 id="hf49">____________</h4>
+		<h4 id="hf50">____________</h4>
+		<h4 id="hf51">____________</h4>
+		<h4 id="hf52">____________</h4>
+		<h4 id="hf53">____________</h4>
+		<h4 id="hf54">____________</h4>
+		<h4 id="hf55">____________</h4>
+		<h4 id="hf56">____________</h4>
+		<h4 id="hf57">____________</h4>
+		<h4 id="hf58">____________</h4>
+		<h4 id="hf59">____________</h4>
+		<h4 id="hf60">____________</h4>
+		<h4 id="hf61">____________</h4>
+		<h4 id="hf62">____________</h4>
+		<h4 id="hf63">____________</h4>
+		<h4 id="hf64">____________</h4>
+		<h4 id="hf65">____________</h4>
+		<h4 id="hf66">____________</h4>
+		<h4 id="hf67">____________</h4>
+		<h4 id="hf68">____________</h4>
+		<h4 id="hf69">____________</h4>
+		<h4 id="hf70">____________</h4>
+		<h4 id="hf71">____________</h4>
+		<h4 id="hf72">____________</h4>
+		<h4 id="hf73">____________</h4>
+		<h4 id="hf74">____________</h4>
+		<h4 id="hf75">____________</h4>
+		<h4 id="hf76">____________</h4>
+		<h4 id="hf77">____________</h4>
+	</body> 
+</html>
